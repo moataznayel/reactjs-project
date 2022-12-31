@@ -1,0 +1,9 @@
+.product{
+    background-color: #ddd !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}

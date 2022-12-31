@@ -1,0 +1,29 @@
+.navbar .icon-shop{
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+}
+.badge{
+    top: -1px;
+    right: 0px;
+    border-radius: 50% !important;
+}
+@media(max-width:991px){
+    .badge{
+        top: -7px;
+        left: 15px;
+        width: 25px;
+        height: 23px;
+    }
+   
+}
+/* .navbar-nav{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    flex-wrap: nowrap !important;
+
+} */

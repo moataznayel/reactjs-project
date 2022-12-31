@@ -1,0 +1,58 @@
+.shop-header{
+    background: url(../Photos/Shop1.jpg);
+    background-size:cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+@media(max-width:400px){
+    .shop-header{
+        height: 20vh;
+    }
+}
+@media(min-width:400px){
+    .shop-header{
+        height: 30vh;
+    }
+}
+@media(min-width:500px){
+    .shop-header{
+        height: 35vh;
+    }
+}
+@media(min-width:767px){
+    .shop-header{
+        height: 50vh;
+    }
+}
+@media(min-width:991px){
+    .shop-header{
+        height: 60vh;
+    }
+}
+@media(min-width:1200px){
+    .shop-header{
+        height: 70vh;
+    }
+}
+.img-shop{
+    overflow: hidden;
+}
+.text-shop{
+    color: #198754;
+    font-weight: bolder;
+}
+.icon-basket{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: #e0f2f1;
+    cursor: pointer
+    
+}
+.card-img-top:hover{
+    transform: scale(1.2);
+}

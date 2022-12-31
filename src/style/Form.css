@@ -1,0 +1,31 @@
+.form-label{
+    color: #1976d2;
+    font-weight: 700;
+
+}
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+form h1{
+    color: #198754;
+    font-family: 'Cairo', sans-serif;
+}
+form select{
+    color: #1976d2 !important;
+    font-weight: 700 !important;
+}
+form input{
+    color: #00acc1 !important;
+    font-weight: 500 !important;
+}
+.sign-in input{
+    background-color: black !important;
+}
+.show-password{
+    cursor: pointer;
+    position: absolute;
+    top: 42px;
+    color: white;
+    right: 20px;
+}
